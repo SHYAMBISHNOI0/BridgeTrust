@@ -1,0 +1,9 @@
+scenario,evaluated_frames,anomalies,detected,correct_classification,healthy_samples,false_alarms,recall_pct,class_accuracy_pct,false_alarm_pct,engine_rmse,mean_rmse,median_rmse
+Normal traffic,135,0,0,0,675,0,NaN,NaN,0.000,0.0691,0.0691,0.0691
+Sensor spike,135,135,135,135,540,0,100.000,100.000,0.000,0.0753,7.0019,0.0753
+Frozen sensor,135,135,135,135,540,0,100.000,100.000,0.000,0.0853,0.4111,0.1039
+Gradual drift,135,135,135,135,540,0,100.000,100.000,0.000,0.0786,1.9851,0.0786
+Signal dropout,135,135,135,135,540,0,100.000,100.000,0.000,0.0753,0.0753,0.0753
+Structural shift,135,270,270,270,405,0,100.000,100.000,0.000,0.0691,0.0691,2.4068
+Thermal cycle,135,0,0,0,675,0,NaN,NaN,0.000,0.0691,0.0691,0.0691
+Malformed input,135,135,135,135,540,0,100.000,100.000,0.000,0.0740,0.0740,0.0740

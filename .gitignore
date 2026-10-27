@@ -1,0 +1,33 @@
+Maven build output and packaged applications
+
+target/
+out/
+
+Compiled Java files
+
+*.class
+
+Operating system files
+
+.DS_Store
+Thumbs.db
+
+Local JDK, Maven and development tools
+
+.tools/
+
+IDE settings
+
+.idea/
+.vscode/
+
+Runtime session data
+
+data/sessions/
+data/trust-v2.ser*
+data/trust.ser
+
+Logs and temporary files
+
+*.log
+*.tmp
